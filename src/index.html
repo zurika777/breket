@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<meta name="google" content="notranslate">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="">
+
+<!-- Favicons -->
+
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="container">
+
+
+<button id="openForm" type="button"  onclick="openForm()">
+   ფორმის გახსნა
+</button>
+   <button id="swichLanguage" oncklick="swichLanguage()">
+       English
+   </button>
+
+   <div id="postList"></div>
+
+
+<div id="createForm">
+    <form  id="createPost">
+        <input id="title" type="text" name="title" placeholder="დასახელება">
+        <textarea  id="content"  name="content" placeholder="შეიყვანეთ ტექსტი">
+
+        </textarea>
+        <button type="submit" onclick="createNewPost()">ახალი ჩანაწერის შექმნა</button>
+    </form>
+</div>
+    </div>
+<script src="js/functions.js"></script>
+<script src="js/general.js"></script>
+<script src="js/storage.js"></script>
+</body>
+</html>
