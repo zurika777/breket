@@ -3,7 +3,7 @@
     let form = document.getElementById("createForm");
     let button = document.getElementById("openForm");
     let postsList = document.getElementById("postList");
-let path = "https://github.com/zurika777/Site-block1/blob/9ed5ed1f421047e7d869b187da1b74708715bdff/langs.json";
+let path = "https://github.com/zurika777/breket/tree/master/src/data";
 
     const openForm = () => {
 

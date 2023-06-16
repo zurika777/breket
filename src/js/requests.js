@@ -1,4 +1,4 @@
-let path = "https://github.com/zurika777/Site-block1/blob/master/src/assets/js/langs.json";
+let path = "https://github.com/zurika777/breket/tree/master/src/data";
 
 
 const firstAsync = async () => {
