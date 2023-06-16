@@ -3,6 +3,7 @@
     let form = document.getElementById("createForm");
     let button = document.getElementById("openForm");
     let postsList = document.getElementById("postList");
+let path = "https://github.com/zurika777/Site-block1/blob/9ed5ed1f421047e7d869b187da1b74708715bdff/langs.json";
 
     const openForm = () => {
 
@@ -100,7 +101,10 @@
 
 
 
-    window.onload = () => {
+    window.onload = async () => {
+        let fetchData = await fetch(path).then((response) => {
+           return response.json();
+        });
         let posts = getPosts();
         if (posts.length > 0) {
             for(let i=0; i < posts.length; i++){
