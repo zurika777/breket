@@ -9,3 +9,10 @@ return sum;
 }
 let result = myCalculator(5, 5);
 myDisplay(result);
+
+
+
+
+
+
+//axxali aq chaamate da gaushvi jer shenmoitane da ise

@@ -1,5 +1,5 @@
 
-    let formState = false;
+    let fssormState = false;
     let form = document.getElementById("createForm");
     let button = document.getElementById("openForm");
     let postsList = document.getElementById("postList");
@@ -7,13 +7,13 @@ let path = "https://github.com/zurika777/breket/tree/master/src/data";
 
     const openForm = () => {
 
-        if(!formState){
+        if(!fssormState){
             form.style.display = "flex";
-            formState = true;
+            fssormState = true;
             button.innerText = 'ფორმის დახურვა';
         } else {
             form.style.display = "none";
-            formState = false;
+            fssormState = false;
             button.innerText = 'ფორმის გახსნა';
         }
     }
